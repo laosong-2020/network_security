@@ -1,0 +1,30 @@
+{	
+	"name" : "portfilter",
+	"description" : "a simple firewall to block a specific host with
+        port number", 
+	"moduleNum" : "3",
+	"modules" : [
+	{	
+		"id" : "1",
+		"type" : "FM_flow_sourcePort", 
+		"event" : "INCOMMING_FLOW", 
+		"parameters" : [],
+		"inputs" : []
+	},
+	
+	{ 	
+		"id" : "2",
+		"type" : "FM_match_port",
+		"event" : "PULL", 
+		"parameters" : ["23"],
+		"inputs" : ["1:1:1"]
+	},
+		
+	{	
+		"id" : "3",
+		"type" : "FM_drop_flow", 
+		"event" : "PUSH", 
+		"parameters" : [], 
+		"inputs" : ["1:2:1"]
+	}]
+}
