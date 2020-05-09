@@ -1,0 +1,2 @@
+C:\Users\songzhenlei\source\repos\netSec_pro\Debug\netSec_pro.exe
+C:\Users\songzhenlei\source\repos\netSec_pro\Debug\netSec_pro.pdb

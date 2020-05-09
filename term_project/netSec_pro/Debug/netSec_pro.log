@@ -1,0 +1,48 @@
+﻿  grade.c
+  main.c
+C:\Users\songzhenlei\source\repos\Tetris\main.c(255,15): warning C4101: “m”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(255,13): warning C4101: “k”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(283,15): warning C4101: “m”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(283,13): warning C4101: “k”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(375,11): warning C4101: “j”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(375,9): warning C4101: “i”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(386,13): warning C4101: “k”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(386,9): warning C4101: “i”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(475,12): warning C4101: “m”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(475,10): warning C4101: “k”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(475,8): warning C4101: “j”: 未引用的局部变量
+C:\Users\songzhenlei\source\repos\Tetris\main.c(475,6): warning C4101: “i”: 未引用的局部变量
+  mark.c
+  print.c
+C:\Users\songzhenlei\source\repos\Tetris\print.c(153,26): warning C4013: “myHash”未定义；假设外部返回 int
+C:\Users\songzhenlei\source\repos\Tetris\print.c(184,13): warning C4013: “setLEVEL”未定义；假设外部返回 int
+C:\Users\songzhenlei\source\repos\Tetris\print.c(192,10): warning C4013: “WIN_TEST”未定义；假设外部返回 int
+C:\Users\songzhenlei\source\repos\Tetris\print.c(204,10): warning C4101: “NAME”: 未引用的局部变量
+  queue.c
+C:\Users\songzhenlei\source\repos\Tetris\queue.c(31,22): warning C4133: “=”: 从“Queue_POINT”到“Queue_DATA *”的类型不兼容
+C:\Users\songzhenlei\source\repos\Tetris\queue.c(39,23): warning C4133: “=”: 从“Queue_DATA *”到“Queue_POINT”的类型不兼容
+  ranking_list.c
+C:\Users\songzhenlei\source\repos\Tetris\ranking_list.c(129,11): warning C4013: “GAMECHOICE”未定义；假设外部返回 int
+  screen.c
+C:\Users\songzhenlei\source\repos\Tetris\screen.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  trans.c
+  正在生成代码...
+C:\Users\songzhenlei\source\repos\Tetris\trans.c(38): warning C4716: “find_mark”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\ranking_list.c(66): warning C4716: “write”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\ranking_list.c(98): warning C4715: “save”: 不是所有的控件路径都返回值
+C:\Users\songzhenlei\source\repos\Tetris\ranking_list.c(130): warning C4715: “show”: 不是所有的控件路径都返回值
+C:\Users\songzhenlei\source\repos\Tetris\ranking_list.c(140): warning C4716: “TOP”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\queue.c(33): warning C4715: “EnQueue”: 不是所有的控件路径都返回值
+C:\Users\songzhenlei\source\repos\Tetris\print.c(333): warning C4716: “arrayFORECAST”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\print.c(272): warning C4716: “drawFORECAST”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\print.c(357): warning C4716: “drawLEFT”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\print.c(450): warning C4716: “printf_full_miss”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\print.c(477): warning C4716: “printf_miss”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\print.c(570): warning C4716: “printf_full”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\mark.c(91): warning C4716: “CROSS_MIN”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\main.c(278): warning C4715: “r_move”: 不是所有的控件路径都返回值
+C:\Users\songzhenlei\source\repos\Tetris\main.c(353): warning C4715: “MOVE_LEFT”: 不是所有的控件路径都返回值
+C:\Users\songzhenlei\source\repos\Tetris\main.c(406): warning C4715: “MOVE_RIGHT”: 不是所有的控件路径都返回值
+C:\Users\songzhenlei\source\repos\Tetris\main.c(471): warning C4716: “KEY_CATCH”: 必须返回一个值
+C:\Users\songzhenlei\source\repos\Tetris\grade.c(133): warning C4715: “WIN_TEST”: 不是所有的控件路径都返回值
+  netSec_pro.vcxproj -> C:\Users\songzhenlei\source\repos\netSec_pro\Debug\netSec_pro.exe
